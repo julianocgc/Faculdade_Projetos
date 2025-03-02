@@ -23,13 +23,14 @@ Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da
 </ol>
 
 ## Instruções de Uso
-<ul>
-<li>O acesso ao programa poderá ser feito pelo ícone criado na Área de Trabalho;</li>
-<li>Caso não encontre o ícone, entre na pasta C:\Arquivos de Programas\Almoxarifado;</li>
-<li>Localize o arquivo executável (.exe);</li>
-<li>Clique com o botão direito do mouse sobre este arquivo;</li>
-<li>Clique na opção "Enviar para" - "Área de trabalho (criar atalho)";</li>
-<li>Clique 2x no ícone localizado na sua Área de Trabalho.</li>
-</ul>
+<dl>
+<dt>O acesso ao programa poderá ser feito pelo ícone criado na Área de Trabalho;</dt>
+<dt>Caso não encontre o ícone, entre na pasta C:\Arquivos de Programas\Almoxarifado;</dt>
+<dt>Localize o arquivo executável (.exe);</dt>
+<dt>Clique com o botão direito do mouse sobre este arquivo;</dt>
+<dt>Clique na opção "Enviar para" - "Área de trabalho (criar atalho)";</dt>
+<dt>Clique 2x no ícone localizado na sua Área de Trabalho.</dt>
+</dl>
+
 ## Licença
 Este software é de propriedade da Telemidia Sistema de Telecomunicações LTDA
