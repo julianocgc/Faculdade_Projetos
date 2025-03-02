@@ -6,10 +6,11 @@ Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da
 
 ## Pré requisitos
 <ul>
-<li>Processador i3 ou superior
-Sistema Operacional Windows 10 ou superior
-Memória RAM 8GB no mínimo
-HD 256GB no mínimo
+<li>Processador i3 ou superior</li>
+<li>Memória RAM 8GB no mínimo</li>
+<li>HD 256GB no mínimo</li>
+<li>Sistema Operacional Windows 10 ou superior</li>
+<li>Java RE instalado</li>
 </ul>
 
 
