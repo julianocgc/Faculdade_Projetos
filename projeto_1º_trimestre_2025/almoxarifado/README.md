@@ -1,18 +1,14 @@
-## Getting Started
+# Título
+ALMOXARIFADO v 1.0
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
+Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da empresa Telemidia Sistema de Telecomunicações LTDA.
 
-## Folder Structure
+## Pré requisitos
 
-The workspace contains two folders by default, where:
+## Instruções de Instalação
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Instruções de Uso
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Licença
+Este software é de propriedade da Telemidia Sistema de Telecomunicações LTDA
