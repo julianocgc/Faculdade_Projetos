@@ -1,4 +1,4 @@
-public class Produto { // criação da classe
+public class Produto { // criação da classe Produto
     
     int codigo; // atributo da classe
     String equipamento; // atributo da classe

@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) {
         
-        // Instância do objeto
+        // Instância do objeto Produto
         Produto p1 = new Produto();
         p1.codigo = 1;
         p1.equipamento = "ONU";
@@ -15,7 +15,7 @@ public class App {
         p1.estoque = 10;
         p1.observacoes = "Observação do produto";
 
-        // Instância do objeto
+        // Instância do objeto Produto
         Produto p2 = new Produto();
         p2.codigo = 2;
         p2.equipamento = "ONU";
@@ -29,11 +29,42 @@ public class App {
         p2.estoque = 10;
         p2.observacoes = "Observação do produto";
 
-        // fazer uso do comportamento do objeto
+        // Instancia do objeto Tecnico
+        Tecnico t1 = new Tecnico();
+        t1.id_tecnico = 1;
+        t1.nome_tecnico = "João";
+        t1.cpf_tecnico = "123456789";
+        t1.endereco_tecnico = "Rua 1, Nº 1";
+        t1.telefone_tecnico = "1234567890";
+        t1.email_tecnico = "joao@email.com";
+        t1.funcao_tecnico = "Técnico de Suporte";
+        t1.equipamentos = "teste";
+        t1.observacoes = "Observação do técnico";
+
+        // Instancia do objeto Tecnico
+        Tecnico t2 = new Tecnico();
+        t2.id_tecnico = 2;
+        t2.nome_tecnico = "Carlos";
+        t2.cpf_tecnico = "987654321";
+        t2.endereco_tecnico = "Rua 2, Nº 2";
+        t2.telefone_tecnico = "0123456789";
+        t2.email_tecnico = "carlos@email.com";
+        t2.funcao_tecnico = "Técnico de Infra";
+        t2.equipamentos = "teste";
+        t2.observacoes = "Observação do técnico";
+
+        // fazer uso do comportamento do objeto Produto
         p1.exibirDetalhes();
         p1.imprimir();
         p2.exibirDetalhes();
         p2.imprimir();
+
+        // fazer uso do comportamento do objeto Tecnico
+        t1.exibirInformacoes();
+        t1.separador();
+        t2.exibirInformacoes();
+        t2.separador();
+
 
         //System.out.println("Produto 1: " + p1.nome + " R$" + p1.preco);
         //System.out.println("Produto 2: " + p2.nome + " R$" + p2.preco);
