@@ -8,7 +8,7 @@ public class Cliente { // criação da classe Cliente
     String estado_cliente; // atributo da classe
     String telefone_cliente; // atributo da classe
     String email_cliente; // atributo da classe
-    String equipamento; // atributo da classe
+    String data_nasc_cliente; // atributo da classe
     String observacoes; // atributo da classe
     
     // métodos (comportamentos)
@@ -21,7 +21,7 @@ public class Cliente { // criação da classe Cliente
         System.out.println("Estado do Cliente: " + estado_cliente);
         System.out.println("Telefone do Cliente: " + telefone_cliente);
         System.out.println("E-mail do Cliente: " + email_cliente);
-        System.out.println("Equipamentos: " + equipamento);
+        System.out.println("Data de nascimento: " + data_nasc_cliente);
         System.out.println("Observações: " + observacoes);
     }
 
