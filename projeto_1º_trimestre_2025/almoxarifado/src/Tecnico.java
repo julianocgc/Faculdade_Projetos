@@ -11,7 +11,7 @@ public class Tecnico { // criação da classe Tecnico
     String observacoes; // atributo da classe
     
     // métodos (comportamentos)
-    void exibirInformacoes(){
+    void exibirInfoTec(){
         System.out.println("ID do Técnico: " + id_tecnico);
         System.out.println("Nome do Técnico: " + nome_tecnico);
         System.out.println("CPF do Técnico: " + cpf_tecnico);
@@ -23,8 +23,8 @@ public class Tecnico { // criação da classe Tecnico
         System.out.println("Observações: " + observacoes);
     }
 
-    void separador(){
-        System.out.println("------------------------------------------------");
+    void imprimirLinhaX(){
+        System.out.println("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
     }
 
 }

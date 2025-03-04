@@ -29,7 +29,7 @@ public class App {
         p2.estoque = 10;
         p2.observacoes = "Observação do produto";
 
-        // Instancia do objeto Tecnico
+        // Instância do objeto Tecnico
         Tecnico t1 = new Tecnico();
         t1.id_tecnico = 1;
         t1.nome_tecnico = "João";
@@ -41,7 +41,7 @@ public class App {
         t1.equipamentos = "teste";
         t1.observacoes = "Observação do técnico";
 
-        // Instancia do objeto Tecnico
+        // Instância do objeto Tecnico
         Tecnico t2 = new Tecnico();
         t2.id_tecnico = 2;
         t2.nome_tecnico = "Carlos";
@@ -53,17 +53,49 @@ public class App {
         t2.equipamentos = "teste";
         t2.observacoes = "Observação do técnico";
 
+        // Instância do objeto Cliente
+        Cliente c1 = new Cliente();
+        c1.id_cliente = 1;
+        c1.nome_cliente = "João";
+        c1.cpf_cliente = "123456789";
+        c1.endereco_cliente = "Rua 1, Nº 1";
+        c1.cidade_cliente = "São Paulo";
+        c1.estado_cliente = "SP";
+        c1.telefone_cliente = "1234567890";
+        c1.email_cliente = "joao@email.com";
+        c1.equipamento = "ONU";
+        c1.observacoes = "Observação do cliente";
+
+        // Instância do objeto Cliente
+        Cliente c2 = new Cliente();
+        c2.id_cliente = 2;
+        c2.nome_cliente = "João";
+        c2.cpf_cliente = "123456789";
+        c2.endereco_cliente = "Rua 2, Nº 2";
+        c2.cidade_cliente = "São Paulo";
+        c2.estado_cliente = "SP";
+        c2.telefone_cliente = "1234567890";
+        c2.email_cliente = "joao@email.com";
+        c2.equipamento = "ONU";
+        c2.observacoes = "Observação do cliente";
+
         // fazer uso do comportamento do objeto Produto
-        p1.exibirDetalhes();
-        p1.imprimir();
-        p2.exibirDetalhes();
-        p2.imprimir();
+        p1.exibirInfoProd();
+        p1.imprimirLinhaPontilhada();
+        p2.exibirInfoProd();
+        p2.imprimirLinhaPontilhada();
 
         // fazer uso do comportamento do objeto Tecnico
-        t1.exibirInformacoes();
-        t1.separador();
-        t2.exibirInformacoes();
-        t2.separador();
+        t1.exibirInfoTec();
+        t1.imprimirLinhaX();
+        t2.exibirInfoTec();
+        t2.imprimirLinhaX();
+
+        // fazer uso do comportamento do objeto Cliente
+        c1.exibirInfoCli();
+        c1.imprimirLinhaIgual();
+        c2.exibirInfoCli();
+        c2.imprimirLinhaIgual();
 
 
         //System.out.println("Produto 1: " + p1.nome + " R$" + p1.preco);

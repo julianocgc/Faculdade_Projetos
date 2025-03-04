@@ -13,7 +13,7 @@ public class Produto { // criação da classe Produto
     String observacoes; // atributo da classe
 
     // métodos (comportamentos)
-    void exibirDetalhes(){
+    void exibirInfoProd(){
         System.out.println("Código: " + codigo);
         System.out.println("Equipamento: " + equipamento);
         System.out.println("Marca: " + marca);
@@ -27,8 +27,8 @@ public class Produto { // criação da classe Produto
         System.out.println("Observações: " + observacoes);
     }
 
-    void imprimir(){
-        System.out.println("------------------------------------------------------------");
+    void imprimirLinhaPontilhada(){
+        System.out.println("--------------------------------------------------");
     }
 
 }
