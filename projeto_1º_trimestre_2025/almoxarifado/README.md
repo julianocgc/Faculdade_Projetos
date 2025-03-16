@@ -2,7 +2,7 @@
 ALMOXARIFADO v 1.0
 
 ## Descrição
-Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da empresa Telemidia Sistema de Telecomunicações LTDA - Poçços de Caldas - MG.
+Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da empresa Telemidia Sistemas de Telecomunicação LTDA - Poços de Caldas - MG.
 
 ## Pré requisitos
 <ul>
