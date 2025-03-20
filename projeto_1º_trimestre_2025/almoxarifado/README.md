@@ -33,8 +33,7 @@ Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da
 </dl>
 
 ## Licença
-<<<<<<< HEAD
-Este software é de propriedade da Telemidia Sistema de Telecomunicações LTDA
+Este software é de propriedade da empresa Telemidia Sistema de Telecomunicações LTDA
 
 ## Alunos
 <ol>
