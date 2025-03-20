@@ -41,6 +41,3 @@ Este software é de propriedade da Telemidia Sistema de Telecomunicações LTDA
 <li>Bruna Maria Borges, RA 1012023200191</li>
 <li>Juliano Cezar Guimarães Corrêa, RA 1012023200211</li>
 </ol>
-=======
-Este software é de propriedade da Telemidia Sistemas de Telecomunicação LTDA
->>>>>>> 7cc2f34422630a49cafc3e14ec1483514a44b4eb
