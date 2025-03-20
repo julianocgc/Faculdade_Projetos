@@ -34,3 +34,9 @@ Programa desenvolvido para controle de estoque de equipamentos do amoxarifado da
 
 ## Licença
 Este software é de propriedade da Telemidia Sistema de Telecomunicações LTDA
+
+## Alunos
+<ol>
+<li>Bruna Maria Borges, RA 1012023200191</li>
+<li>Juliano Cezar Guimarães Corrêa, RA 1012023200211</li>
+</ol>
