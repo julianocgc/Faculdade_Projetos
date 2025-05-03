@@ -1,24 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<script language="JavaScript">
-function addFav(){
-    var url      = "http://www.infosoft.k6.com.br";
-    var title    = "INFO SOFT - Consultoria";
-    if (window.sidebar) window.sidebar.addPanel(title, url,"");
-    else if(window.opera && window.print){
-        var mbm = document.createElement('a');
-        mbm.setAttribute('rel','sidebar');
-        mbm.setAttribute('href',url);
-        mbm.setAttribute('title',title);
-        mbm.click();
-    }
-    else if(document.all){window.external.AddFavorite(url, title);}
-}
-</script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>INFO SOFT Consultoria</title>
-<link href="css/estilo.css" rel="stylesheet" type="text/css" />
+<title>Telemidia</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
 .style4 {
@@ -38,23 +23,23 @@ function addFav(){
 </div>
 <div id="barNav">
     <ul class="barNav">
-      <li class="barNav"><a href="montagem.html">Cliente</a></li>
-      <li class="barNav"><a href="aulas.html">Assinante</a></li>
+      <li class="barNav"><a href="cliente.html">Cliente</a></li>
+      <li class="barNav"><a href="assinante.html">Assinante</a></li>
       <li class="barNav"></li>
-      <li class="barNav"><a href="sites.html">2ª via Boleto</a></li>
-      <li class="barNav"><a href="redes.html">Para Você</a></li>
-      <li class="barNav"><a href="suporte_online.html">Meu E-mail</a></li>
-      <li class="barNav"><a href="limpeza.html">Suporte 24h</a></li>
+      <li class="barNav"><a href="via_boleto.html">2ª via Boleto</a></li>
+      <li class="barNav"><a href="para_voce.html">Para Você</a></li>
+      <li class="barNav"><a href="meu_email.html">Meu E-mail</a></li>
+      <li class="barNav"><a href="suporte.html">Suporte 24h</a></li>
       <li class="barNav">
         <ul>
-          <li><a href="impressoras.html">TV Telemidia</a></li>
+          <li><a href="tv_telemidia.html">TV Telemidia</a></li>
         </ul>
       </li>
-      <li class="barNav"><a href="notebooks.html">Mesh</a></li>
-      <li class="barNav"><a href="recuperacao_de_dados.html">Cursos</a></li>
-      <li class="barNav"><a href="cartuchos.html">Sky+</a></li>
-      <li class="barNav"><a href="roteadores.html">Planos</a></li>
-      <li class="barNav"><a href="sistemas.html">WhatsApp</a></li>
+      <li class="barNav"><a href="mesh.html">Mesh</a></li>
+      <li class="barNav"><a href="cursos.html">Cursos</a></li>
+      <li class="barNav"><a href="sky+.html">Sky+</a></li>
+      <li class="barNav"><a href="planos.html">Planos</a></li>
+      <li class="barNav"><a href="whatsapp.html">WhatsApp</a></li>
     </ul>
 </div>
 <div id="Conteudo">
@@ -74,5 +59,6 @@ function addFav(){
     <div id="Endereco">(35) 3731-1118 | 0800-283-8080 | Poços de Caldas - MG </div>
   <div id="Direitos"><em>Copyright</em> © 1996 Telemidia - Todos os direitos reservados</div>
 </div>
+<script src="./js/script.js"></script>
 </body>
 </html>
