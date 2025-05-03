@@ -1,0 +1,48 @@
+version: "3.1"
+
+rules:
+
+- rule: Responder saudacao do usuario
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+
+- rule: Responder despedida do usuário
+  steps:
+  - intent: despedidas
+  - action: utter_despedidas
+
+- rule : Responder negacao
+  steps:
+    - intent: negacao
+    - action: utter_negacao
+
+- rule: Responder humor bom
+  steps:
+    - intent: humor_bom
+    - action: utter_humor_bom
+
+- rule: Responder desafio do robo
+  steps:
+    - intent: bot_challenge
+    - action: utter_bot_challenge
+
+- rule: triste
+  steps:
+    - intent: triste
+    - action: utter_tristeza
+
+- rule: bravo
+  steps:
+    - intent: bravo
+    - action: utter_bravo
+
+- rule: angustiado
+  steps:
+    - intent: angustiado
+    - action: utter_angustia
+
+- rule: ansiosos
+  steps:
+    - intent: ansioso
+    - action: utter_ansioso

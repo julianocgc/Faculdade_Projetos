@@ -1,0 +1,172 @@
+version: "3.1"
+
+nlu:
+- intent: saudacoes
+  examples: |
+    - oii
+    - oi
+    - olá
+    - Olá
+    - bom dia
+    - boa tarde
+    - boa noite
+    - hey
+    - hi
+    - e ai?
+    - eai
+    - olaa
+    - opa 
+    - Fala ai
+
+- intent: despedidas
+  examples: |
+    - bye
+    - tchau
+    - até mais tarde
+    - adeus
+    - tenha um bom dia 
+    - goodbye
+    - have a nice day
+    - Nos vemos por aí
+    - bye bye
+    - nos vemos mais tarde
+    - ok 
+    -okay
+    - okay vou tentar
+    - ok vou tentar 
+    - vou tentar
+    - beleza
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - yes
+    - certo
+    - ok
+    - okay
+    - correto
+
+- intent: negacao
+  examples: |
+    - não
+    - no
+    - nunca
+    - não sei sobre isso 
+    - não gostei disto
+    - jamais 
+    - não pode ser 
+    - ainda não medi 
+    - não sei
+    - nçao sei agora 
+    - não gostei disto
+
+- intent: humor_bom
+  examples: |
+    - perfeito
+    - muito bom
+    - adimiravel
+    - gostei
+    - maravilhoso
+    - Estou me sentindo muito bem
+    - estou bem
+    - estou melhor
+    - estou indo
+    - melhor agora
+    - extremamente bem 
+    - so so perfect
+    - bem
+    - happy
+
+- intent: humor_ruim
+  examples: |
+    - meu dia está horrivel 
+    - eu estou ruim
+    - não me sinto bem
+    - estou indisposta
+    - estou indisposto
+    - não estou bem
+    - muito mal
+    - extemamente ruim
+    - desanimada
+    - desanimado
+    - ruim
+
+- intent: bot_challenge
+  examples: |
+    - você e um bot?
+    - vocÊ é um humano?
+    - eu estou falando com um bot?
+    - eu estou falando com um humano?
+
+- intent: triste
+  examples: |
+    - estou triste
+    - triste
+    - estou arrasado 
+    - estou arrasada
+    - estou desanimada
+    - estou desanimado
+    - estou infeliz
+    - infelicidade 
+    - estou com tristura
+    - estou abatido
+    - estou abatida 
+    - estou melancolico 
+    - estou melancolica 
+    - estou com intrestecimento
+    - estou intristecida 
+    - estou intristecido
+    - estou em depressão 
+    - estou depressivo
+    - estou depressiva 
+    - estou sem esperança
+    - estou desesperancioso 
+    - estou magoado 
+    - estou magoada 
+    - estou com desgosto
+    - estou amargurado 
+    - estou armagurada 
+    - estou inquieto
+    - estou inquieta
+
+- intent: bravo
+  examples: |
+    - estou com raiva
+    - raiva
+    - estou brava
+    - estou bravo
+    - bravo
+    - brava
+    - estou zangado
+    - estou zangada
+    - zanga
+    - repulsa
+    - estou com repulsa
+    - estou furiosa
+    - estou furioso
+    - estou stressada
+    - estress
+    - stress
+
+- intent: angustiado
+  examples: |
+    - estou angustiadobom
+    - estou dessesperado
+    - estou angustiada
+    - estou dessesperada 
+    - estou aflita 
+    - estou em dessespero 
+    - estou preocupada 
+    - estou preocupado 
+    - estou com aseio 
+    -estou com medo
+    - medo 
+
+- intent: ansioso
+  examples: |
+    - estou ansioso
+    - estou ansiosa
+    - estou aflita
+    - estou com receio
+    - ansiedade
+    - aflição

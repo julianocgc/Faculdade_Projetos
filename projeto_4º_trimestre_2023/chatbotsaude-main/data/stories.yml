@@ -1,0 +1,56 @@
+version: "3.1"
+
+stories:
+
+- story: humor bom
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: humor_bom
+  - action: utter_humor_bom
+  - intent: despedidas
+  - action: utter_despedidas
+
+- story: humor triste
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: humor_ruim
+  - action: utter_humor_ruim
+  - intent: triste
+  - action: utter_tristeza
+  - intent: despedidas
+  - action: utter_despedidas
+
+- story: humor bravo
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: humor_ruim
+  - action: utter_humor_ruim
+  - intent: bravo
+  - action: utter_bravo
+  - intent: despedidas
+  - action: utter_despedidas
+
+- story: humor angustiado
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: humor_ruim
+  - action: utter_humor_ruim
+  - intent: angustiado
+  - action: utter_angustia
+  - intent: despedidas
+  - action: utter_despedidas
+
+- story: humor ansioso
+  steps:
+  - intent: saudacoes
+  - action: utter_saudacoes
+  - intent: humor_ruim
+  - action: utter_humor_ruim
+  - intent: ansioso
+  - action: utter_ansioso
+  - intent: despedidas
+  - action: utter_despedidasoi

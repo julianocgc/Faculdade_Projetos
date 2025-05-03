@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+
+  - saudacoes
+  - despedidas
+  - afirmacao
+  - negacao
+  - humor_bom
+  - humor_ruim
+  - bot_challenge
+  - triste
+  - bravo
+  - angustiado
+  - ansioso
+
+responses:
+  utter_saudacoes:
+  - text: "Olá, como vai?"
+
+  utter_afirmacao:
+  - text: "Serio?"
+
+  utter_humor_ruim:
+  - text: "O que está sentindo?"
+
+  utter_humor_bom:
+  - text: "Que bom! caso necessite de minha ajuda estou aqui"
+
+  utter_despedidas:
+  - text: "Até logo"
+
+  utter_bot_challenge:
+  - text: "Eu sou um robo, construido pela Rasa"
+
+  utter_pergunta_ajuda:
+  - text: "você precisa de ajuda?"
+
+  utter_negacao:
+   - text: "que pena,caso possa te ajudar me avise!"
+
+  utter_tristeza:
+    - text: "que tal separar um tempo para você fazer o que gosta, cuidar da saúde, da beleza, praticar uma atividade física ou ter um hobbie novo caso não tenha um. Caso ainda esteja se sentindo constantemente triste é ideal procurar por ajuda profissional."
+
+  utter_bravo:
+    - text: "que tal praticar um pouco de exercicio fisico? Pois essa atividade libera endorfinas, substâncias químicas no cérebro que ajudam a nos acalmar e gerir as emoções "
+
+  utter_angustia:
+    - text: "que tal permitir que as emoções negativas fluem? Permita que as emoções fluam, mas também busque maneiras saudáveis de lidar com elas, como conversar com amigos, escrever em um diário, ou buscar ajuda profissional."
+
+  utter_ansioso:
+    - text: "que tal fazer uma meditação, yoga ou tecnica de respiração? procure reduzir a intensidade da respiração, puxando o ar para dentro dos pulmões durante 3 segundos , segure o ar por 6 segundos mantendo-o no pulmão e depois expulsando o ar dos pulmdurante 6 segundos  . Inspire e respire profundamente, para conectar-se consigo mesmo "
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
