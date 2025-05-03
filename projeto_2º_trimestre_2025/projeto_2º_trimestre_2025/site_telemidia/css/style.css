@@ -5,20 +5,52 @@
 	margin-bottom: 0px;
 	margin-left: auto;
 }
-#Topo {
-	text-align: center;
-	background-color: #006699;
-	height: 120px;
-	font-size: 36px;
-	color: #FFFFFF;
-	font-weight: bold;
+
+#Cabecalho {
+	text-align: left;
 }
+
+#Logo {
+	text-align: center;
+}
+
+#texto-logo {
+	color: #000000;
+	text-align: center;
+}
+
+#Navegacao {
+	background: #77b5ce;
+	font-size: 30px;
+}
+
 #Conteudo {
 	margin-left: 170px;
 	margin-right: 170px;
 	margin-top: 30px;
 	height: auto;
 }
+
+#secao1 {
+	background-color: rgb(205, 206, 202);
+	text-align: center;
+}
+
+#secao2 {
+	background-color: #5a77c7;
+	text-align: center;
+}
+
+#artigo1 {
+	background-color: #000000;
+	text-align: center;
+}
+
+#artigo2 {
+	background-color: #33335c;
+	text-align: center;
+}
+
 #Slogan {
 	clear: both;
 	font-size: 24px;
@@ -26,28 +58,32 @@
 	color: #FFFFFF;
 	background-color: #000000;
 }
+
 #Contato {
 	width: 500px;
 	float: left;
 }
+
 #Endereco {
 	width: 500px;
 	padding-right: 25px;
-	font-size: 12px;
+	font-size: 20px;
 	text-align: right;
 	color: #FFFFFF;
 	float: right;
 	
 }
+
 #Direitos {
 	width: 500px;
 	padding-right: 25px;
-	font-size: 12px;
+	font-size: 20px;
 	text-align: right;
 	color: #FFFFFF;
 	float: right;
 }
-#Rodape{
+
+#Rodape {
 	text-align: center;
 	background-color: #006699;
 	clear: both;
@@ -56,6 +92,7 @@
 	color: #FFFFFF;
 	font-weight: bold;
 }
+
 .Listas {
 	margin: 0;
 	padding-bottom: 0px;
@@ -64,58 +101,35 @@
 	padding-top: 0px;
 	list-style: none;
 }
-ul.barNav {
-	margin-top: 0px;
-	margin-left: 30px;
-	margin-right: 30x; 
-	height: 25px;
-}
-ul.barNav li {
-	list-style: none;	
-	display: inline;
-	align-items: center;
-}
-ul.barNav li a {
-	float: left;
-	border-top: 0.1em solid #fff;
-	border-right: 0.1em solid #909090;
-	border-bottom: 0.1em solid #909090;
-	border-left: 0.1em solid #fff;
-	width: 80px;
-	font: 0.68em  Verdana, Arial, Helvetica, sans-serif;
-	background: #f1f1f1;
-	color: #333;
-	text-align: center;
-	padding: 2px;
-	text-decoration: none;
-}
-ul.barNav a:hover{
-	background: #999;
-	color: #fff;
-	border-color: #000 #fafafa #fafafa #000;
-}
+
 a:link {
 	text-decoration: none;
 	color: #000000;
 }
+
 a:visited {
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: underline;
 	color: #000000;
 }
+
 a:active {
 	text-decoration: none;
 }
+
 .style1 {
 	color: #FF0000;
 	font-weight: bold;
 }
+
 .style2 {
 	color: #0000FF;
 	font-weight: bold;
 }
+
 .style3 {
 	color: #FFFFFF;
 	font-weight: bold;
