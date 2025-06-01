@@ -1,12 +1,16 @@
-
+<?php
+$rp = '';
+include ($rp . '_cabecalho.php');
+include ($rp . '_texto_logo.php');
+?>
 
   <div id="geral">
     
   <!-- conteúdo principal -->
     <div id="conteudo">
       <div align="center"></div>
-        <p align="center" class="style2  style4"><img src="planos/plano_combo_maxi_650m.png" width="219" height="786" /><img src="planos/plano_combo_maxibox_650m.png" width="223" height="788" /><img src="planos/plano_combo_star_350m.png" width="222" height="789" /><img src="planos/plano_combo_super_550m.png" width="220" height="788" /></p>
-        <p align="center"><strong>Para maiores detalhes entre em contato conosco.</strong></p>
+        <p align="center" class="style2  style4"><img src="planos/planos.png" width="956" height="849"></p>
+      <p align="center"><strong>Para maiores detalhes entre em contato conosco.</strong></p>
     </div>
 
   <!-- seção principal = H1 até H6 -->
@@ -34,3 +38,6 @@
 <!-- sugestões para o visitante -->
 <aside></aside>
 
+<?php
+include ($rp . '_rodape.php');
+?>

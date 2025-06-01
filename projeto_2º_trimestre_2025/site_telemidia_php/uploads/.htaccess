@@ -1,0 +1,30 @@
+# Proteger diretório de uploads
+# Permitir apenas download direto de arquivos específicos por usuários autorizados
+
+# Negar acesso a todos os arquivos por padrão
+<Files "*">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Permitir acesso apenas a arquivos PDF, DOC e DOCX
+<FilesMatch "\.(pdf|doc|docx)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Impedir execução de scripts
+<FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Desabilitar listagem de diretórios
+Options -Indexes
+
+# Adicionar headers de segurança
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options nosniff
+    Header set X-Frame-Options DENY
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
