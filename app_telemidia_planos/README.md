@@ -1,16 +1,33 @@
-# app_telemidia_planos
+# Título
+APP TELEMIDIA SISTEMAS DE TELECOMUNICAÇÃO LTDA v1.0
 
-A new Flutter project.
+## Descrição
+APP desenvolvido para divulgação de planos e serviços da empresa Telemidia Sistemas de Telecomunicação LTDA - Poços de Caldas - MG.
 
-## Getting Started
+## Pré requisitos
+<ul>
+<li>Sistema Operacional Android ou IOS</li>
+</ul>
 
-This project is a starting point for a Flutter application.
+## Instruções de Instalação
+<ol>
+<li>Baixar o APP Telemidia direto na PlayStore</li>
+<li>Fazer a instalação no Android ou IOS</li>
+<li>Entrar com os dados de login e senha do provedor Telemidia</li>
+<li>Verificar se existe alguma configuração adicional a ser feita</li>
+<li>Acessar o APP e fazer os testes necessários</li>
+<li>GitHub https://github.com/julianocgc/Faculdade_Projetos/app_telemidia_planos</li>
+</ol>
 
-A few resources to get you started if this is your first Flutter project:
+## Instruções de Uso
+<dl>
+<dt>O acesso ao APP poderá ser feito pelo ícone criado na Área de Trabalho do Android ou IOS ou através da gaveta de APP's;</dt>
+</dl>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Licença
+Este software é de propriedade da empresa Telemidia Sistemas de Telecomunicação LTDA.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Alunos
+<ol>
+<li>Juliano Cezar Guimarães Corrêa, RA 1012023200211</li>
+</ol>
