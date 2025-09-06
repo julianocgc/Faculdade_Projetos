@@ -21,7 +21,7 @@ APP desenvolvido para divulgação de planos e serviços da empresa Telemidia Si
 
 ## Instruções de Uso
 <dl>
-<dt>O acesso ao APP poderá ser feito pelo ícone criado na Área de Trabalho do Android ou IOS ou através da gaveta de APP's;</dt>
+<dt>O acesso ao APP poderá ser feito pelo ícone criado na Área de Trabalho do Android ou IOS ou através da gaveta de APP's.</dt>
 </dl>
 
 ## Licença
