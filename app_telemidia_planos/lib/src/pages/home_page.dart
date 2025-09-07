@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                     backgroundColor: Color(0xFFF2D946)
               ),
                 onPressed: () {},
-                child: const Text('Plano 1',
+                child: const Text('COMBO START 350M',
                   style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
                         backgroundColor: Color(0xFFF2D946)
                     ),
                     onPressed: () {},
-                    child: const Text('Plano 2',
+                    child: const Text('COMBO SUPER 550M',
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
@@ -75,7 +75,7 @@ class HomePage extends StatelessWidget {
                         backgroundColor: Color(0xFFF2D946)
                     ),
                     onPressed: () {},
-                    child: const Text('Plano 3',
+                    child: const Text('COMBO SPLUS 600M',
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
                         backgroundColor: Color(0xFFF2D946)
                     ),
                     onPressed: () {},
-                    child: const Text('Plano 4',
+                    child: const Text('COMBO MAX-I 650M',
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
@@ -109,7 +109,7 @@ class HomePage extends StatelessWidget {
                         backgroundColor: Color(0xFFF2D946)
                     ),
                     onPressed: () {},
-                    child: const Text('Plano 5',
+                    child: const Text('SUPERTV TELEMIDIA',
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
